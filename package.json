@@ -1,0 +1,6 @@
+{
+ "name":"totalbotwar","version":"0.1.0","private":true,"type":"module","engines":{"node":">=22"},
+ "scripts":{"build:ui":"node scripts/build-ui.mjs","typecheck":"tsc --noEmit","build":"npm run typecheck && npm run build:ui && go build -o build/TotalBotWar ./cmd/server","start":"go run ./cmd/server","test":"go test -race ./...","test:browser":"node scripts/browser-smoke.mjs"},
+ "dependencies":{"@modelcontextprotocol/ext-apps":"1.7.5","@openai/mcp-extensions":"0.2.1"},
+ "devDependencies":{"esbuild":"0.28.2","typescript":"7.0.2","playwright":"1.65.0"}
+}

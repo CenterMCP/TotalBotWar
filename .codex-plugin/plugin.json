@@ -1,0 +1,17 @@
+{
+ "name":"totalbotwar",
+ "version":"0.1.0",
+ "description":"Command a turn-based army across a fog-covered battlefield from ChatGPT.",
+ "author":{"name":"Center"},
+ "mcpServers":"./.mcp.json",
+ "interface":{
+  "displayName":"TotalBotWar",
+  "shortDescription":"Your orders. Your army. Your battlefield.",
+  "longDescription":"A fullscreen strategy skirmish with five unit classes, fog of war, simultaneous turns, a tactical bot opponent, and unit commands through ChatGPT chat.",
+  "developerName":"Center",
+  "capabilities":["Interactive","Read","Write"],
+  "composerIcon":"./assets/icon.svg",
+  "logo":"./assets/icon.svg",
+  "defaultPrompt":["Open TotalBotWar and start a new battle."]
+ }
+}

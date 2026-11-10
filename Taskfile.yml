@@ -1,0 +1,13 @@
+version: '3'
+tasks:
+  build:
+    cmds: [npm run build]
+  check:
+    cmds:
+      - npm run typecheck
+      - go vet ./...
+      - go test -race ./...
+  run-dev:
+    cmds: [go run ./cmd/server]
+  docker-build:
+    cmds: [docker build -t totalbotwar .]

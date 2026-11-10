@@ -1,0 +1,9 @@
+{
+ "mcpServers":{
+  "totalbotwar":{
+   "command":"./build/TotalBotWar",
+   "args":["--stdio"],
+   "cwd":"."
+  }
+ }
+}
